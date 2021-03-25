@@ -1,2 +1,8 @@
+@import 'config.css';
+@import 'color.css';
 @import 'grid.css';
-@import 'light-dark.css'
+@import 'light-dark.css';
+
+/* Am pus comentariu pentru ca stiu cum */
+@import 'typography.css';
+@import 'welcome.css';
