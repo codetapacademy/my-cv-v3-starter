@@ -1,0 +1,15 @@
+.legend {
+  border-radius: var(--box-radius);
+  border: 2px solid var(--color-cerulean);
+}
+
+.legend__item {
+  padding: 16px 24px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto 1fr auto;
+}
+
+.legend__item:not(:last-child) {
+  border-bottom: 2px solid var(--color-cerulean);
+}
