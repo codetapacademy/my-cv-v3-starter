@@ -1,3 +1,4 @@
 node_modules
 do-not-touch
 yarn-error.log
+.DS_Store
