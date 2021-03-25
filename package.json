@@ -1,6 +1,5 @@
 {
-  "name": "html-css-javascript-starterclear
-  ",
+  "name": "html-css-javascript-starterclear",
   "version": "1.0.0",
   "description": "Project for first timers into web development",
   "main": "index.js",
@@ -9,8 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codetapacademy/html-css-javascript-starterclear
-    .git"
+    "url": "git+https://github.com/codetapacademy/html-css-javascript-starterclear.git"
   },
   "keywords": [
     "html",
@@ -21,11 +19,9 @@
   "author": "Marian Zburlea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codetapacademy/html-css-javascript-starterclear
-    /issues"
+    "url": "https://github.com/codetapacademy/html-css-javascript-starterclear/issues"
   },
-  "homepage": "https://github.com/codetapacademy/html-css-javascript-starterclear
-  #readme",
+  "homepage": "https://github.com/codetapacademy/html-css-javascript-starterclear#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
   }
