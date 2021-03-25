@@ -11,3 +11,9 @@ body {
   margin: 0;
   font-family: 'Montserrat';
 }
+
+hr {
+  border: 0;
+  border-top: 2px solid var(--color-cerulean);
+  margin: 20px auto;
+}
