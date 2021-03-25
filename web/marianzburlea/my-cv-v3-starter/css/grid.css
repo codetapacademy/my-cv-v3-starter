@@ -35,6 +35,10 @@
 }
 
 
+[data-center] {
+  grid-column: 1/-1;
+}
+
 @media screen and (min-width: 768px) {
   [data-center] {
     grid-column: 3/-3;
