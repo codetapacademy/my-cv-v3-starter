@@ -33,3 +33,16 @@
   grid-column: 1/-1;
   /* justify-content: center; */
 }
+
+
+@media screen and (min-width: 768px) {
+  [data-center] {
+    grid-column: 3/-3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  [data-center] {
+    grid-column: 5/-5;
+  }
+}

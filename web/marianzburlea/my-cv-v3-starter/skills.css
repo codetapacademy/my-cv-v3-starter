@@ -56,6 +56,11 @@ h4 {
   background-color: var(--color-lavender);
 }
 
+[class^="legend__counter--"] {
+  font-size: 16px;
+  font-weight: 900;
+}
+
 .legend__counter--red::before {
   content: counter(red);
 }
@@ -78,4 +83,13 @@ h4 {
 
 .data-yellow {
   counter-set: yellow;
+}
+
+[rotate="180"] {
+  transform: rotate(180deg)
+}
+
+.legend__description {
+  font-size: 16px;
+  font-weight: 500;
 }
