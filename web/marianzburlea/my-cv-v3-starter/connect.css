@@ -1,0 +1,7 @@
+.image-square {
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--box-radius);
+  border: 7px solid var(--color-cerulean);
+}
