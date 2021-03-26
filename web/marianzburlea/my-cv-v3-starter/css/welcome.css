@@ -86,6 +86,9 @@ h2 span:not(:first-child) {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  background-image: url(../image/chevron-down.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 [data-style="pill"] img {
