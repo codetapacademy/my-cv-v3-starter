@@ -30,7 +30,7 @@ h4 {
   font-weight: 500;
   display: inline-block;
   border-radius: 10px;
-  color: white;
+  color: var(--color-white);
 }
 
 .tag-red {

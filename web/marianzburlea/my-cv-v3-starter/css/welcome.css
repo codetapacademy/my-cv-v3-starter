@@ -63,7 +63,7 @@ h2 span:not(:first-child) {
 [data-style="pill"] {
   border-radius: 28px;
   background-color: var(--color-cerulean);
-  color: white;
+  color: var(--color-white);
   height: 55px;
   border: 0;
   width: 100%;
@@ -78,7 +78,7 @@ h2 span:not(:first-child) {
 [data-style="disc"] {
   border-radius: 20px;
   background-color: rgba(15, 142, 214, 0.2);
-  color: white;
+  color: var(--color-white);
   height: 65px;
   width: 65px;
   border: 0;
