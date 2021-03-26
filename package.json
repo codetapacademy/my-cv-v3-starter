@@ -4,7 +4,9 @@
   "description": "Project for first timers into web development",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js"
+    "start": "node start.js",
+    "c": "git-cz",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,12 @@
   },
   "homepage": "https://github.com/codetapacademy/html-css-javascript-starterclear#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "live-server": "^1.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
