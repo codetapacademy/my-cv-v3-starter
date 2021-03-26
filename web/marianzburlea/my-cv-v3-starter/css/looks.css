@@ -1,7 +1,6 @@
 @import 'config.css';
 @import 'color.css';
 @import 'grid.css';
-@import 'light-dark.css';
 
 /* Am pus comentariu pentru ca stiu cum */
 @import 'typography.css';
@@ -9,3 +8,5 @@
 @import 'connect.css';
 @import 'skills.css';
 @import 'footer.css';
+
+@import 'light-dark.css';
