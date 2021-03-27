@@ -10,7 +10,7 @@ Hi and welcome to **My CV v3 starter**. The v3 is a complete rewrite and total m
 1. You **MUST NOT** write it as a copy/paste, it doesn't help you at the full potential.
 1. Create a pull request for all main issues.
 1. Use all the time `yarn c` or `npm run c` for every single commit you make.
-1. Add a description with all the sub-issues present in a main issue and have their status unchecked. Make sure the issue numbers are update to the correct ones.
+1. Add a description with all the sub-issues present in a main issue and have their status unchecked. Make sure the issue numbers are updated to the correct ones.
     * Example:
 ```
 * [ ] feat: create section title for connect #9 

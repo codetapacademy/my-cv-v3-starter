@@ -21,10 +21,10 @@ footer {
   margin-top: 36px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .footer__copy {
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
   .footer__copy {
