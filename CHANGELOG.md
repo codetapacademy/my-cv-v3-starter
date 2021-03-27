@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/codetapacademy/html-css-javascript-starterclear/compare/v1.1.0...v2.0.0) (2021-03-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* ma-ta
+
+* add a short description about the next project ([984d9d3](https://github.com/codetapacademy/html-css-javascript-starterclear/commit/984d9d30ff815f718e0378fe7b115ff46ee297fd)), closes [#20](https://github.com/codetapacademy/html-css-javascript-starterclear/issues/20)
+
 ## 1.1.0 (2021-03-26)
 
 
