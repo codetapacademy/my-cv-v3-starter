@@ -1,7 +1,6 @@
 # Step by Step instructions
 
-Hi and welcome to **My CV v3 starter**.
-
+Hi and welcome to **My CV v3 starter**. The v3 is a complete rewrite and total makeover of all the processes envolved in creating and delivering this project.
 
 ## Write down the plan
 
