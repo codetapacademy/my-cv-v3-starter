@@ -1,0 +1,30 @@
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-cod-gray);
+  }
+
+  h1 span:not(:first-child), h3 span:not(:first-child), h2 span:first-child {
+    color: var(--color-white);
+  }
+
+  h1 span:first-child, h3 span:first-child, h2 span:not(:first-child) {
+    color: var(--color-malibu);
+  }
+
+  .description {
+    color: var(--color-wild-sand);
+  }
+
+  [data-style="pill"] {
+    background-color: var(--color-teal-blue);
+  }
+
+  [data-style="disc"] {
+    background-image: url(../image/chevron-down-white.png);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .legend {
+    color: var(--color-white)
+  }
+}
