@@ -1,0 +1,19 @@
+/* short reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid var(--color-cerulean);
+  margin: 20px auto;
+}
