@@ -1,0 +1,42 @@
+.grid-frumos {
+  /* border: 10px dotted dodgerblue; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 40px 15px 0;
+  counter-set: pasari;
+}
+
+.patrat {
+  /* border: 10px double coral; */
+  padding-top: 100%;
+  background-color: forestgreen;
+  counter-increment: pasari;
+}
+
+.dreptunghi::before,
+.patrat::before {
+  content: counter(pasari);
+}
+
+.dreptunghi {
+  /* border: 10px double coral; */
+  padding-top: 25%;
+  background-color: palevioletred;
+  grid-column: 1/-1;
+  counter-increment: pasari;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .grid-frumos {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .grid-frumos {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
