@@ -49,6 +49,7 @@ body {
 .section-title {
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 18px;
 }
 
 .shadow-box {
@@ -59,4 +60,36 @@ body {
   color: var(--color-dark);
   font-size: 12px;
   line-height: 21px;
+  margin: 18px 0;
+}
+
+.button-pill {
+  margin: 18px 0;
+  background-color: var(--color-active);
+  color: var(--color-light);
+  height: 55px;
+  line-height: 55px;
+  border-radius: 27px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-pill img {
+  margin-right: 10px;
+}
+
+.button-down {
+  background-color: rgba(15, 142, 214, 0.2);
+  height: 65px;
+  width: 65px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

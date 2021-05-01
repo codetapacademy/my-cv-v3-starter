@@ -1,5 +1,6 @@
 :root {
-  --color-active: #0f8ed6;
+  --color-active: rgb(15, 142, 214);
   --color-dark: #333;
+  --color-light: #fff;
   --color-background: #e5e5e5;
 }
