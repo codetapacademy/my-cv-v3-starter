@@ -1,0 +1,18 @@
+.grid-frumos {
+  /* border: 10px dashed blue; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.patrat {
+  /* border: 4px dashed red; */
+  padding-top: 100%;
+  background-color: rgb(247, 0, 255);
+}
+.dreptunghi {
+  /* border: 4px dashed red; */
+  padding-top: 25%;
+  background-color: rgb(0, 21, 255);
+  grid-column: 1/-1;
+}
