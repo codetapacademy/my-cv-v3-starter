@@ -1,0 +1,37 @@
+.image-square {
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--box-radius);
+  border: 7px solid var(--color-cerulean);
+}
+
+
+/* social */
+[class^="social__icon"] {
+  padding-top: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social__icon--red {
+  background-color: var(--color-coral-red);
+}
+
+.social__icon--green {
+  background-color: var(--color-apple);
+}
+
+.social__icon--yellow {
+  background-color: var(--color-yellow-orange);
+}
+
+.social__icon--orange {
+  background-color: var(--color-pumpkin);
+}
+
+.social__icon--purple {
+  background-color: var(--color-lavender);
+}

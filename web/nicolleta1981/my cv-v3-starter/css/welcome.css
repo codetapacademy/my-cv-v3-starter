@@ -1,0 +1,116 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 24px auto 6px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 span:not(:first-child),
+h3 span:not(:first-child),
+h2 span:first-child {
+  color: var(--color-mine-shaft);
+}
+
+h1 span:first-child,
+h3 span:first-child,
+h2 span:not(:first-child) {
+  color: var(--color-cerulean);
+}
+
+.shadow-box {
+  border: 1px solid var(--color-cerulean);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--box-radius);
+  padding: 16px;
+}
+
+.description {
+  line-height: 26px;
+}
+.description:first-child {
+  margin-top: 0;
+}
+
+.description:last-child {
+  line-height: 21px;
+}
+.description:last-child {
+  margin-bottom: 0;
+}
+
+.break-52 {
+  height: 52px;
+}
+
+.break-16 {
+  height: 16px;
+}
+
+[data-style="pill"] {
+  border-radius: 28px;
+  background-color: var(--color-cerulean);
+  color: var(--color-white);
+  height: 55px;
+  border: 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-style="disc"] {
+  border-radius: 20px;
+  background-color: rgba(15, 142, 214, 0.2);
+  color: var(--color-white);
+  height: 65px;
+  width: 65px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url(../image/chevron-down.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+[data-style="pill"] img {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 96px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
