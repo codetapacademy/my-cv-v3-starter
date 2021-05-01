@@ -22,11 +22,11 @@
 }
 
 [data-column="5"] {
-  grid-column:span 5;
+  grid-column: span 5;
 }
 
 [data-row="5"] {
-  grid-row:span 5;
+  grid-row: span 5;
 }
 
 [data-full] {
