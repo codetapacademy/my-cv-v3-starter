@@ -4,27 +4,28 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   margin: 40px 15px 0;
-  counter-set: pasari;
+  /* counter-set: pasari; */
 }
 
-.patrat {
+.column {
   /* border: 10px double coral; */
-  padding-top: 100%;
+  /* padding-top: 100%; */
   background-color: forestgreen;
-  counter-increment: pasari;
+  /* counter-increment: pasari; */
 }
 
-.dreptunghi::before,
+/* .dreptunghi::before,
 .patrat::before {
   content: counter(pasari);
-}
+} */
 
-.dreptunghi {
+.row {
   /* border: 10px double coral; */
-  padding-top: 25%;
-  background-color: palevioletred;
+  /* padding-top: 25%; */
   grid-column: 1/-1;
-  counter-increment: pasari;
+  display: flex;
+  justify-content: center;
+  /* counter-increment: pasari; */
 }
 
 /* tablet */
