@@ -2,5 +2,11 @@
   --color-active: rgb(15, 142, 214);
   --color-dark: #333;
   --color-light: #fff;
+
   --color-background: #e5e5e5;
+  --color-button-red: #f93442;
+  --color-button-green: #33b540;
+  --color-button-yellow: #febb43;
+  --color-button-orange: #ff791c;
+  --color-button-purple: #ce73d5;
 }

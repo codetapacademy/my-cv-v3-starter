@@ -1,0 +1,44 @@
+[class^="social-media__"] { 
+  width: 100%;
+  padding-top: 100%;
+  background-color: ed;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+[class="social-media__udemy"] {
+  background-image: url(../image/udemy.png);
+}
+[class="social-media__codewars"] {
+  background-image: url(../image/codewars.png);
+}
+[class="social-media__codetap"] {
+  background-image: url(../image/codetap.png);
+}
+[class="social-media__facebook"] {
+  background-image: url(../image/facebook.png);
+}
+[class="social-media__github"] {
+  background-image: url(../image/github.png);
+}
+
+[data-theme="red"] {
+  background-color: var(--color-button-red);
+}
+
+[data-theme="green"] {
+  background-color: var(--color-button-green);
+}
+
+[data-theme="orange"] {
+  background-color: var(--color-button-orange);
+}
+
+[data-theme="yellow"] {
+  background-color: var(--color-button-yellow);
+}
+
+[data-theme="purple"] {
+  background-color: var(--color-button-purple);
+}
