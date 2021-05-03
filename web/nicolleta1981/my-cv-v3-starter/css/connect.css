@@ -2,12 +2,12 @@
   padding-bottom: 100%;
   background-size: cover;
   background-position: center;
-  border-radius: var(--box-radius);
-  border: 7px solid var(--color-cerulean);
+  border-radius: 20px;
+  border: 7px solid #0d79f3;
 }
 
 
-/* social */
+
 [class^="social__icon"] {
   padding-top: 100%;
   border-radius: 50%;
@@ -17,21 +17,21 @@
 }
 
 .social__icon--red {
-  background-color: var(--color-coral-red);
+  background-color: #F93442;
 }
 
-.social__icon--green {
-  background-color: var(--color-apple);
+.social__icon--blue {
+  background-color: #103af7;
 }
 
 .social__icon--yellow {
-  background-color: var(--color-yellow-orange);
+  background-color: #fcd303;
 }
 
 .social__icon--orange {
-  background-color: var(--color-pumpkin);
+  background-color: #eb820b;
 }
 
-.social__icon--purple {
-  background-color: var(--color-lavender);
+.social__icon--pink {
+  background-color: #d811df;
 }

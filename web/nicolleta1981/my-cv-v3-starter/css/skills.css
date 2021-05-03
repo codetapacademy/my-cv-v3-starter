@@ -1,6 +1,6 @@
 .legend {
-  border-radius: var(--box-radius);
-  border: 2px solid var(--color-cerulean);
+  border-radius: 20px;
+  border: 2px solid #0d79f3;
 }
 
 .legend__item {
@@ -11,11 +11,11 @@
 }
 
 .legend__item:not(:last-child) {
-  border-bottom: 2px solid var(--color-cerulean);
+  border-bottom: 2px solid #0d79f3;
 }
 
 h4 {
-  color: var(--color-cerulean);
+  color: #0d79f3;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 16px;
@@ -30,30 +30,30 @@ h4 {
   font-weight: 500;
   display: inline-block;
   border-radius: 10px;
-  color: var(--color-white);
+  color: #ffffff;
 }
 
 .tag-red {
-  background-color: var(--color-coral-red);
+  background-color: #F93442;
   counter-increment: red;
 }
 
 .tag-green {
-  background-color: var(--color-apple);
+  background-color: #33B540;
   counter-increment: green;
 }
 
 .tag-yellow {
-  background-color: var(--color-yellow-orange);
+  background-color: #FEBB43;
   counter-increment: yellow;
 }
 
 .tag-orange {
-  background-color: var(--color-pumpkin);
+  background-color: #FF791C;
 }
 
 .tag-purple {
-  background-color: var(--color-lavender);
+  background-color: #CE73D5;
 }
 
 [class^="legend__counter--"] {

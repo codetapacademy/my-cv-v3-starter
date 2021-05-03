@@ -1,22 +1,22 @@
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-cod-gray);
+    background-color: #1A1A1A;
   }
 
   h1 span:not(:first-child), h3 span:not(:first-child), h2 span:first-child {
-    color: var(--color-white);
+    color: #ffffff;
   }
 
   h1 span:first-child, h3 span:first-child, h2 span:not(:first-child) {
-    color: var(--color-malibu);
+    color: #88e1f7;
   }
 
   .description {
-    color: var(--color-wild-sand);
+    color: #F5F5F5;
   }
 
   [data-style="pill"] {
-    background-color: var(--color-teal-blue);
+    background-color: #074569;
   }
 
   [data-style="disc"] {
@@ -25,6 +25,6 @@
   }
 
   .legend {
-    color: var(--color-white)
+    color: #ffffff
   }
 }
