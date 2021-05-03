@@ -1,18 +1,22 @@
-.grid-frumos {
-  /* border: 10px dashed blue; */
+.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  margin: 0 15px;
 }
 
-.patrat {
-  /* border: 4px dashed red; */
-  padding-top: 100%;
-  background-color: rgb(247, 0, 255);
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 20px;
+    margin: 0 30px;
+  }
 }
-.dreptunghi {
-  /* border: 4px dashed red; */
-  padding-top: 25%;
-  background-color: rgb(0, 21, 255);
-  grid-column: 1/-1;
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 0 130px;
+  }
 }
