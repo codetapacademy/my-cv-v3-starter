@@ -41,10 +41,16 @@
   [data-center] {
     grid-column: 3/-3
   }
+  button[data-style="pill"] {
+    width: 50%
+  }
 }
 
 @media screen and (min-width:1024px) {
   [data-center] {
     grid-column: 5/-5
+  }
+  button[data-style="pill"] {
+    width: 30%
   }
 }

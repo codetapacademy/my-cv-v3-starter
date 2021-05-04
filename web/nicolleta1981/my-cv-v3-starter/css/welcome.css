@@ -22,17 +22,18 @@ h3 {
 h1 span:not(:first-child),
 h3 span:not(:first-child),
 h2 span:first-child {
-  color: #373E41;
+  color: #333333;
+  ;
 }
 
 h1 span:first-child,
 h3 span:first-child,
 h2 span:not(:first-child) {
-  color: #0d79f3;
+  color: #0f8ed6;
 }
 
 .shadow-box {
-  border: 1px solid #0d79f3;
+  border: 1px solid #0f8ed6;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   padding: 16px;
@@ -62,8 +63,8 @@ h2 span:not(:first-child) {
 
 [data-style="pill"] {
   border-radius: 28px;
-  background-color: #0d79f3;
-  color: #ffffff;
+  background-color: #0f8ed6;
+  color: #ffff;
   height: 55px;
   border: 0;
   width: 100%;
@@ -71,6 +72,8 @@ h2 span:not(:first-child) {
   font-weight: bold;
   font-size: 14px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
 }
@@ -78,7 +81,7 @@ h2 span:not(:first-child) {
 [data-style="disc"] {
   border-radius: 20px;
   background-color: rgba(15, 142, 214, 0.2);
-  color: #ffffff;
+  color: #ffff;
   height: 65px;
   width: 65px;
   border: 0;
