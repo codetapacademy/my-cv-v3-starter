@@ -1,0 +1,37 @@
+.image-square {
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 7px solid #0d79f3;
+}
+
+
+
+[class^="social__icon"] {
+  padding-top: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social__icon--red {
+  background-color: #F93442;
+}
+
+.social__icon--blue {
+  background-color: #103af7;
+}
+
+.social__icon--yellow {
+  background-color: #fcd303;
+}
+
+.social__icon--orange {
+  background-color: #eb820b;
+}
+
+.social__icon--pink {
+  background-color: #d811df;
+}
