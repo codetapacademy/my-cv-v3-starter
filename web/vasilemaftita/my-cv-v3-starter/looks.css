@@ -1,0 +1,95 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-gap: 10px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat (8, 1fr);
+    grid-gap: 20px;
+    margin: 130px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 130px;
+  }
+}
+
+/* temporary */
+.square {
+  padding-top: 100%;
+  counter-increment: grid;
+
+  position: relative;
+}
+
+.square::before {
+  content: counter(grid);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+[data-column='4'] {
+  grid-column: span 4;
+}
+
+[data-row='4'] {
+  grid-row: span 4;
+}
+
+[data-full] {
+  grid-column: 1/-1;
+  padding-top: 25%;
+}
+
+/* Dark Sea Green */
+.square:nth-child(8n) {
+  background-color: #8fbc8f;
+}
+
+/* Saddle Brown */
+.square:nth-child(8n + 1) {
+  background-color: #8b4513;
+}
+
+/* Cadet Blue */
+.square:nth-child(8n + 2) {
+  background-color: #5f9ea0;
+}
+
+/* Teal */
+.square:nth-child(8n + 3) {
+  background-color: #008080;
+}
+
+/* Blanched Almond */
+.square:nth-child(8n + 4) {
+  background-color: #ffebcd;
+}
+
+/* Cornflower Blue */
+.square:nth-child(8n + 5) {
+  background-color: #6495ed;
+}
+
+/* Lawn Green */
+.square:nth-child(8n + 6) {
+  background-color: #7cfc00;
+}
+
+/* Sandy Brown */
+.square:nth-child(8n + 7) {
+  background-color: #f4a460;
+}
