@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico">
+   
+    <title>Live Dinosaurs Trending</title>
+  </head>
+  <body>
+ <header>
+   <!-- <div class="grid"> -->
+<!-- Previouse version on iframe was even more hard on CSS adjusting. -->
+<!-- Header splits in 4.We split header in half and left side will contains 3 divs.
+     Left side header we split on vertical again and left side contains doc icon and right sight we split it on 2 but this time on horizontal.
+     Upper part from left side contains title and 4 icons.
+     Bottom part contains some  text button menu-input radio that opens some hidden menu list.
+     While adjusting from desktop to cell phone right side goes in front of left side. -->
+      <div class="links"><a href="https://docs.google.com/document/u/0/"><img alt="doc" src="image/icons8-google-docs-48.png"></a></div>
+      <div class="cont">    
+       <div class=above>
+        <!-- <a href="https://docs.google.com/document/u/0/"><img alt="doc" src="image/icons8-google-docs-48.png"></a> -->
+        <div class="titlu">Live Dinosaurs Tren...</div>
+        <div class="icon"><img alt="stea" src="image/216-star-empty.png"></div>
+        <div class="icon"><img alt="drive" src="image/drive2.png"></div>
+        <div class="icon"><img alt="info" src="image/269-info.png"></div>
+        <div class="icon"><img alt="cloud" src="image/197-cloud-check.png"></div>
+       </div>
+
+       <div class="topnav">
+            <a class="active" href="#fisier.html">Fisier</a>
+            <a class="active" href="#editati">Editati</a>
+            <a class="active" href="#afisati">Afisati</a>
+            <a class="active" href="#instrumente">Instrumente</a>
+            <a class="active" href="#ajutor">Ajutor</a>
+       </div>
+      </div>    
+      </div>
+
+      <div class="right">
+          <a class="active" href="#access">Solicitati acces pentru editare</a>
+          <a class="active" href="#distribuie"><img alt="distribuie" src="image/distribuiti.png"></a>
+          <a class="active" href="#logare"><img alt="om" src="image/om.png"></a>
+      </div>
+        
+  <!-- </div> -->
+ </header>
+
+
+    <!-- Rest of the body contains a background grey color.Color of background and flip card are same color.
+        On left side is a flip card on front is a small icon and a width smaller than back part which contains menu linked to middle content.
+        On right side is another tab menu.This one contains links to calendar,personal notes, task organizer and also a + than can add more apps related to it and can be hide it is gues mode is used.
+        On middle is a page that can be modified that have page setup similar to a word document with blank spaces on margins and are unable to write on them. -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>    
+
+
+
+
+
+    <div class="main">
+      <h2 id="miau1">Pure HTML and CSS for web developers</h2>
+      <p>General requirments for the following projects:</p>
+      <p>
+        - Create a single page website to display the contents</p>
+      <p>
+        - The single page web site must be a well tested responsive web page</p>
+      <p>
+        - Implement the responsivness using mobile first approch</p>
+      <p>
+        - The website must have good semantics</p>
+      <p>
+        - The UI (User Interface) must update to dark and light themes</p>
+    </div>
+
+    <div id="mySidenav"class="sidenav">
+      <span onclick="openNav()">&lsaquo;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    </div>
+
+  </body>
+</html>

@@ -41,6 +41,8 @@
   [data-center] {
     grid-column: 3/-3
   }
+
+
   button[data-style="pill"] {
     width: 50%
   }
